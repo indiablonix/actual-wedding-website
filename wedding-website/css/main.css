@@ -107,8 +107,6 @@ body {
   color: black;
   font-family: 'futura-pt', sans-serif;
   font-size: 1em;
-  background: url('../img/kai-pilger-787888-unsplash.jpg') bottom center no-repeat;
-  background-size: cover;
 }
 
 h1 {
@@ -141,19 +139,36 @@ address {
 /* Main Styles */
 
 header {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 header .dropdown {
-
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 header .dropdown .btn {
-
+  background-color: #000000;
+  font-family: 'balboa-plus-fill', sans-serif;
+  font-size: 1.8em;
+  border-radius: 1px;
+  display: flex;
 }
 
 .page-title {
-
+  font-size: 1.8em;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  /* margin-top: 40px; */
 }
 
 footer {
@@ -181,6 +196,9 @@ Home page
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('../img/kai-pilger-787888-unsplash.jpg') bottom center no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 
@@ -208,7 +226,8 @@ Home page
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  /* margin-bottom: 45px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .navigation .button {
@@ -234,17 +253,36 @@ Home page
 Our story
 =========================================================================*/
 
-
-.story-title h1 {
-
+.story {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: 35px;
 }
 
-.story-title h2 {
+.page-title h1 {
+  width: 65%;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
 
+
+.story h2 {
+  /* font-family: 'futura-pt', sans-serif; */
+  font-family: 'balboa-plus-inline', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  /* margin-top: 40px; */
+  margin-bottom: 40px;
 }
 
 .story-content {
-
+  font-weight: 500;
 }
 
 .story-content p {
