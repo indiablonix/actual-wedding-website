@@ -11,7 +11,9 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+<!-- Style Sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.typekit.net/tcy8uid.css">
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -25,22 +27,31 @@
 
   <header>
     <div class="content-wrapper">
-      <nav>
-        <p>Menu</p>
-      </nav>
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="../our-story/index.html">Our Story</a>
+          <a class="dropdown-item" href="../rsvp/index.html">RSVP</a>
+          <a class="dropdown-item" href="../registry-info/index.html">Registry Info</a>
+          <a class="dropdown-item" href="../index.html">Home</a>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main>
+  <main
     <div class="content-wrapper">
-      <h1>Wedding Day Info</h1>
-      <h2>may the 4th ‘be with you’ 2019</h2>
-      <p>*Star Wars Day for those who don’t understand…</p>
+      <div class="page-title">
+        <h1>Wedding Day Info</h1>
+      </div>
+      <div class="sw-day">
+        <h2>may the 4th ‘be with you’ 2019</h2>
+        <p>*Star Wars Day for those who don’t understand…</p>
+      </div>
       <section class="ceremony-reception-info">
         <h2>Ceremony + reception</h2>
-        <div class="date-time">
-          <p>Saturday, May 4th 2019 7pm - 11:45pm</p>
-        </div>
+        <p>Saturday, May 4th 2019 7pm - 11:45pm</p>
         <div class="tram-info">
           <p>There will be a tram available to transport guests from the Memphis Zoo parking lot to the venue beginning at 6:30pm and will run continuously until the reception is over at 11:45pm.
           </p>
@@ -68,26 +79,11 @@
         </div>
       </section>
     </div>
-  </main>
-
-  <footer>
-    <div class="content-wrapper">
-      <p>Copyright | Karla Perez</p>
-    </div>
-  </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+    <footer>
+      <div class="copyright">
+        <p>Copyright | Karla Perez</p>
+      </div>
+    </footer>
   </main>
 
 
@@ -95,6 +91,11 @@
 
 
 
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
   <script src="../js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

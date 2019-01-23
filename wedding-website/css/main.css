@@ -97,19 +97,250 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Global Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: black;
+  font-family: 'futura-pt', sans-serif;
+  font-size: 1em;
+  background: url('../img/kai-pilger-787888-unsplash.jpg') bottom center no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'balboa-plus-primary', sans-serif;
+  font-weight: 400;
+}
+
+h2, h3 {
+  font-family: 'balboa-plus-fill', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+address {
+
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 0;
+
+}
+
+/* Main Styles */
+
+header {
+
+}
+
+header .dropdown {
+
+}
+
+header .dropdown .btn {
+
+}
+
+.page-title {
+
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 100%;
+
+}
+
+footer .copyright {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+/*========================================================================
+Home page
+========================================================================*/
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
+.getting-married {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.getting-married h1 {
+  color: #FFFFFF;
+  font-size: 4em;
+  text-align: center;
+  width: 54%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  /* margin-bottom: 45px; */
+}
+
+.navigation .button {
+  border: 2px solid white;
+  background-color: Black;
+  width: 165px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-family: 'balboa-plus-fill', sans-serif;
+  font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+/*========================================================================
+Our story
+=========================================================================*/
 
 
+.story-title h1 {
+
+}
+
+.story-title h2 {
+
+}
+
+.story-content {
+
+}
+
+.story-content p {
+
+}
+
+/*========================================================================
+Wedding Day info
+=========================================================================*/
+
+.sw-day {
+
+}
+
+.ceremony-reception-info h2 {
+
+}
+
+.ceremony-reception-info p {
+
+}
+
+.ceremony-reception-info .tram-info {
+
+}
+
+address {
+
+}
 
 
+address a {
 
+}
 
+iframe {
 
+}
 
+.important-stuff h2 {
 
+}
 
+.important-stuff-content ul {
 
+}
+
+.important-stuff-content ul li {
+
+}
+
+/* =======================================================================
+Registry info
+=========================================================================*/
+
+.registry {
+
+}
+
+.registry-link {
+
+}
+
+/*========================================================================
+RSVP
+========================================================================*/
+
+.rsvp h2 {
+
+}
+
+.rsvp p {
+
+}
+
+#mc_embed_signup_scroll,
+.mc-field-group {
+  font-family: 'futura', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
+
+#mc_embed_signup_scroll span {
+  color: red;
+}
+
+.mc-field-group .asterisk	{
+  color: red;
+}
+
+#mc_embed_signup_scroll input {
+  /* width: 50%; */
+}
 
 
 
