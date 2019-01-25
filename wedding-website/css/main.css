@@ -126,12 +126,9 @@ figure {
   margin: 0;
 }
 
-address {
-
-}
 
 .content-wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0;
 
 }
@@ -150,7 +147,7 @@ header .dropdown {
   justify-content: flex-end;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 header .dropdown .btn {
@@ -172,7 +169,7 @@ header .dropdown .btn {
 }
 
 .page-title h1 {
-  width: 100%;
+  width: 90%;
   margin-top: 0;
   margin-bottom: 5px;
 }
@@ -259,7 +256,7 @@ Our story
 =========================================================================*/
 
 .story {
-  width: 80%;
+  /* width: 80%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,7 +290,7 @@ Wedding Day info
 =========================================================================*/
 
 .wedding-day-info {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -411,7 +408,7 @@ Registry info
 =========================================================================*/
 
 .registry {
-  width: 80%;
+  width: 90%;
   margin-left: 35px;
 }
 
@@ -426,7 +423,7 @@ Registry info
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .registry-link .button {
@@ -446,21 +443,38 @@ Registry info
   margin: 7px 0;
 }
 
-.page-bottom {
+/* .page-bottom {
   position: absolute;
   bottom: 0;
-}
+} */
 
 /*========================================================================
 RSVP
 ========================================================================*/
 
-.rsvp h2 {
+.rsvp {
+  width: 90%;
+  /* margin-left: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-left: 35px;
+}
+
+
+.rsvp-content h2 {
+  font-size: 1.8em;
+  text-align: center;
+  width: 80%;
+  margin: 40px 34px 0;
 
 }
 
-.rsvp p {
-
+.rsvp-content p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 #mc_embed_signup_scroll,
@@ -470,7 +484,13 @@ RSVP
   justify-content: flex-start;
   align-items: center;
   flex-flow: row wrap;
-  width: 80%;
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#mc_embed_signup_scroll .indicates-required {
+  margin-left: 20px;
 }
 
 #mc_embed_signup_scroll span {
@@ -482,7 +502,45 @@ RSVP
 }
 
 #mc_embed_signup_scroll input {
-  /* width: 50%; */
+  height: 40px;
+  width: 100%;
+  border: solid black 1px;
+  /* margin-top: 50px; */
+}
+
+#mc_embed_signup_scroll .input-group {
+  width: 70%;
+}
+
+#mc_embed_signup_scroll .input-group ul {
+  margin-top: 30px;
+  width: 50%;
+  padding: 0;
+}
+
+#mc_embed_signup_scroll .input-group ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+  width: 130px;
+  list-style-type: none;
+}
+
+#mc_embed_signup_scroll .input-group ul li label {
+  width: 50px;
+}
+
+#mc_embed_signup_scroll .clear {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+#mc_embed_signup_scroll .clear input {
+  color: #FFFFFF;
+  font-family: 'balboa-plus-fill', sans-serif;
+  font-size: 1.8em;
+  margin-bottom: 50px;
 }
 
 
@@ -573,15 +631,36 @@ RSVP
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+
+/* General Style */
+
+.content-wrapper {
+  max-width: 640px;
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+
+/*========================================================================
+Homepage
+========================================================================*/
+
+.getting-married h1 {
+  font-size: 5em;
+  width: 42%;
+  margin-top: 75px;
+}
+
+.navigation .button {
+  width: 230px;
+  height: 65px;
+}
+
+.navigation .button a {
+  font-size: 2em;
+  margin: 10px;
+}
+
+
 }
 
 /* ==========================================================================
